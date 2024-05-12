@@ -38,7 +38,7 @@ class UpdateTodoActivity : AppCompatActivity() {
                 Toast.makeText(this, "Changes Saved", Toast.LENGTH_SHORT).show()
             }
         } else {
-            Toast.makeText(this, "Error: Todo not found", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Error: Task not found", Toast.LENGTH_SHORT).show()
             finish()
         }
     }

@@ -22,10 +22,10 @@ class AddTodoActivity : AppCompatActivity() {
             val toDo = ToDo(0, title, content)
             try {
                 db.insertToDo(toDo)
-                Toast.makeText(this, "ToDo Saved", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Task Saved", Toast.LENGTH_SHORT).show()
                 finish()
             } catch (e: Exception) {
-                Toast.makeText(this, "Error saving ToDo", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Error saving Task", Toast.LENGTH_SHORT).show()
             }
         }
 

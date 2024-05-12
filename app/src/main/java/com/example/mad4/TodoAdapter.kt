@@ -42,7 +42,7 @@ class TodoAdapter(private var todoList: List<ToDo>, private val context: Context
                 holder.deleteButton.setOnClickListener {
                         db.deleteTodo(todo.id)
                         refreshData(db.getAllTodo())
-                        Toast.makeText(context, "ToDo Deleted", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(context, "Task Deleted", Toast.LENGTH_SHORT).show()
                 }
         }
 

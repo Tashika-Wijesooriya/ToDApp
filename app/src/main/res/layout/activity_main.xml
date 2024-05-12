@@ -16,7 +16,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="18dp"
         android:layout_marginTop="16dp"
-        android:text="ToDo"
+        android:fontFamily="sans-serif-medium"
+        android:text="Tasks"
         android:textColor="@color/purple"
         android:textSize="24sp" />
 

@@ -16,9 +16,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
-        android:text="Add ToDo"
+        android:fontFamily="sans-serif-medium"
+        android:text="New Task"
         android:textColor="@color/purple"
-        android:textSize="24sp"/>
+        android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/saveButton"
